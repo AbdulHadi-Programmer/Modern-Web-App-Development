@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>/* General table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+thead {
+    background-color: #333;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+/* Table body styles */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid black;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+    <h1>Tables in Html</h1>
+    <table>
+        <thead>
+        <!-- This thead is used to write table heading -->
+            <tr> 
+                <!-- Table row = tr -->
+                <!-- Table Header -->
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <!-- Table Body is written in tbody -->
+            <tr>
+                <td>Abdul Hadi</td>
+                <td>Python Developer</td>
+                <td>$78900</td>
+            </tr>
+            <tr>
+                <td>Abdullah</td>
+                <td>Software Developer</td>
+                <td>$7890</td>
+            </tr>
+            <tr>
+                <td>Maiz</td>
+                <td>ML Engineer</td>
+                <td>$789</td>
+            </tr>
+            <tr>
+                <td>Hammad</td>
+                <td>AI Engineer</td>
+                <td>$745</td>
+            </tr>
+            <tr>
+                <td>Muhammad</td>
+                <td>AI and Data Analyst</td>
+                <td>$4550</td>
+            </tr>
+            <tr>
+                <!-- colspan merge the multiple column 2 mean 2 column and 3 mean 3 column -->
+                <td colspan="1">Thanks</td>
+                <td colspan="2">You</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
